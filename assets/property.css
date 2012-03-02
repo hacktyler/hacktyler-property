@@ -25,7 +25,7 @@ h2 { font-size: 16px; padding-top:5px; margin-top:15px; margin-bottom:5px; text-
 #right-col form#search #alt-addresses a {display:block; margin-bottom:3px;}
 #right-col form#search #alt-addresses .hide-alternatives {text-align:right;}
 
-#right-col .legend { line-height:20px; width: 220px; }
+#right-col .legend { line-height:20px; width: 250px; }
 #right-col .legend h2 { font-weight: normal; }
 #right-col .legend table td { padding-left: 8px; text-align:right; vertical-align:middle; }
 #right-col .legend table th { font-weight: bold; }
