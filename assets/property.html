@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>2011 Tyler home values</title>
+    <title>Tyler home values, 2011</title>
 
     <link rel="stylesheet" type="text/css" href="reset.css" /> 
     <link rel="stylesheet" type="text/css" href="property.css" />
@@ -11,37 +11,32 @@
 <div id="map_canvas"></div>
 
 <div id="right-col">
-    <h1>2011 Tyler home values</h1>
+    <h1>Tyler home values, 2011</h1>
 
     <div class="like-button">
         <iframe src="http://www.facebook.com/plugins/like.php?href=media.hacktyler.com%2Fcensus%2Fproperty.html&amp;send=false&amp;layout=box_count&amp;width=50&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=verdana&amp;height=90" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:90px;" allowTransparency="true"></iframe>
     </div>
 
     <div id="description">
-        <p>TKTK...</p>
+        <p>This map shows the assessed property tax value of privately owned residential properties in Tyler, Texas as of 2011.</p>
+        <p>Each color accounts for <strong>20%</strong> of properties (approximately 5264 out of 26,323 total).</p>
+        <p>For example, 20% of properties are valued at less than $33,999 and 20% at more than $163,964.</p>
     </div>
 
-    <h2 id="instructions">
-        <p class="story-link">Read more: <a href="TKTK">Hack Tyler</a></p>
-    </h2>
-
     <div class="legend">
-        <h2>Privately owned residential properties in Tyler</h2>
         <table>
-            <tr><th><div class="color"></div></th><th class="label">Assessed value ($)</th><th class="value"># of properties</th><th class="pct">% of properties</th></tr>
-            <tr><td><div class="color under100"></div></td><td class="label">Under 100k</td><td class="value">15,057</td><td class="pct">57.1%</td></tr>
-            <tr><td><div class="color under200"></div></td><td class="label">100k - 200k</td><td class="value">7,734</td><td class="pct">29.4%</td></tr>
-            <tr><td><div class="color under300"></div></td><td class="label">200k - 300k</td><td class="value">2,008</td><td class="pct">7.6%</td></tr>
-            <tr><td><div class="color under400"></div></td><td class="label">300k - 400k</td><td class="value">826</td><td class="pct">3.1%</td></tr>
-            <tr><td><div class="color under500"></div></td><td class="label">400k - 500k</td><td class="value">359</td><td class="pct">1.4%</td></tr>
-            <tr><td><div class="color gte500"></div></td><td class="label">Over 500k</td><td class="value">369</td><td class="pct">1.4%</td></tr>
-            <tr><td><div></div></td><td class="label">Total</td><td class="value">26,353</td><td class="pct">100%</td></tr>
+            <tr><th><div class="color"></div></th><th class="label" colspan="3">Assessed value ($)</th></tr>
+            <tr><td><div class="color first quantile"></div></td><td class="label">0</td><td><strong>to</strong></td><td>33,999</td></tr>
+            <tr><td><div class="color second quantile"></div></td><td class="label">33,999</td><td><strong>to</strong></td><td>67,215</td></tr>
+            <tr><td><div class="color third quantile"></div></td><td class="label">67,215</td><td><strong>to</strong></td><td>105,630</td></tr>
+            <tr><td><div class="color fourth quantile"></div></td><td class="label">105,630</td><td><strong>to</strong></td><td>163,964</td></tr>
+            <tr><td><div class="color fifth quantile"></div></td><td class="label">163,964</td><td><strong>to</strong></td><td>2,472,543</td></tr>
         </table>
     </div>
 
-    <div class="note">
-        * Please read the related blog post for important methodological notes.
-    </div>
+    <h2 id="instructions">
+        <p class="story-link">Read more analysis at <a href="TKTK">Hack Tyler</a>.</p>
+    </h2>
 
     <form id="search"> 
         <label for="query"><h3>Search for an address:</h3></label> 
