@@ -32,7 +32,7 @@ h2 { font-size: 16px; padding-top:5px; margin-top:15px; margin-bottom:5px; text-
 #right-col .legend table td { padding-left: 8px; text-align:right; vertical-align:middle; }
 #right-col .legend table th { font-weight: bold; font-size: 1.1em;}
 #right-col .legend table .label { padding-left: 8px; text-align:right; }
-#right-col .legend .color { width:13px; height:13px; border-radius:60px;}
+#right-col .legend td .color { width:13px; height:13px; border-radius:60px; border: 2px solid black;}
 #right-col .legend .first.quantile { background-color:#D01C8B; }
 #right-col .legend .second.quantile { background-color:#F1B6DA; }
 #right-col .legend .third.quantile { background-color:#F7F7F7; }

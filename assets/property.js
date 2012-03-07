@@ -68,7 +68,7 @@ function make_hash() {
 }
 
 $(document).ready(function() {
-    map = new L.Map('map_canvas', { minZoom:11, maxZoom:15 });
+    map = new L.Map('map_canvas', { minZoom:12, maxZoom:15 });
     map.setView(new L.LatLng(32.325, -95.304), 12);
 
     map.addLayer(property_tiles);
